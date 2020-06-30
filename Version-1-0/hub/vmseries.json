@@ -63,7 +63,7 @@
             "type": "string",
             "allowedValues": [
                 "latest",
-                "8.1.0"
+                "9.1.2"
             ],
             "defaultValue": "latest",
             "metadata": {
@@ -184,7 +184,7 @@
         "ipConfigNametrust": "[concat('ipconfigtrust', variables('namingInfix'))]",
         "ipConfigNamemgmt": "[concat('ipconfigmgmt', variables('namingInfix'))]",
         "imagePublisher": "paloaltonetworks",
-        "imageOffer" : "vmseries1",
+        "imageOffer" : "vmseries-flex",
         "version" : "latest",
         "location": "[resourceGroup().location]",
         "resourceGroupName": "[resourceGroup().name]",
